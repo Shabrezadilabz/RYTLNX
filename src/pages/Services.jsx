@@ -1,6 +1,10 @@
 import { Link } from 'react-router-dom';
 
 function Services() {
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   const services = [
     {
       title: "Chip & Silicon Engineering",
@@ -73,6 +77,7 @@ function Services() {
           <Link
             key={index}
             to={service.link}
+            onClick={scrollToTop}
             className="group bg-white rounded-xl p-6 border border-gray-200 hover:border-green-500 hover:shadow-xl transition-all duration-300"
           >
             <h3 className="text-xl font-bold mb-3 text-gray-900 group-hover:text-green-600 transition-colors">
@@ -102,6 +107,7 @@ function Services() {
           <p className="text-gray-600 mb-4">Let's discuss how we can help accelerate your engineering goals</p>
           <Link
             to="/contact"
+            onClick={scrollToTop}
             className="inline-block px-8 py-3 bg-green-600 text-white rounded-lg font-semibold hover:bg-green-700 transition-colors"
           >
             Get In Touch
