@@ -150,9 +150,8 @@ function Home() {
       <section className="relative z-10 max-w-7xl mx-auto px-6 py-16">
         <div className="grid md:grid-cols-2 gap-16 items-center">
           <div className="animate-fadeIn order-2 md:order-1">
-            <h1 className="text-5xl md:text-6xl font-bold leading-tight text-gray-900">
-              <span className="bg-gradient-to-r from-green-500 via-emerald-600 to-green-700 bg-clip-text text-transparent">AI-Driven</span>{' '}
-              Intelligent Systems Engineering
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:font-bold leading-tight text-black" style={{ fontSize: 'clamp(1.875rem, 5vw, 3.375rem)' }}>
+              AI-Driven Intelligent Systems Engineering
             </h1>
             <p className="mt-6 text-gray-700 text-xl leading-relaxed font-medium">
               From silicon to systems, we engineer intelligence across chip, edge, and cloud.
