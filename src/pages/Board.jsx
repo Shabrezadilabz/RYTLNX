@@ -2,7 +2,7 @@ function Board() {
   return (
     <main className="max-w-7xl mx-auto px-6 py-12 animated-bg">
       <div className="text-center mb-12 animate-fadeIn">
-        <h1 className="text-4xl font-bold mb-3">Board of Directors</h1>
+        <h1 className="text-4xl font-bold mb-3 text-green-600">Board of Directors</h1>
         <p className="text-gray-600 text-lg">Meet our experienced leadership team driving RTLYNX's vision</p>
       </div>
 
@@ -19,7 +19,7 @@ function Board() {
                   Founder & Director
                 </div>
                 <p className="text-sm text-gray-700 leading-relaxed">
-                  Debi is a seasoned industry leader with more than two decades of experience in the semiconductor and high-technology sector. He has held influential leadership roles at <strong>Capgemini</strong>, <strong>Happiest Minds</strong>, <strong>Tata Elxsi</strong>, <strong>CoreEL Technologies</strong> & <strong>Cadence</strong>. His expertise spans semiconductor solutions, product engineering, and technology consulting.
+                  Debi is a seasoned industry leader with more than two decades of experience in the semiconductor and high-technology sector. He has held influential leadership roles at <strong>Capgemini</strong>, <strong>Happiest Minds</strong>, <strong>Tata Elxsi</strong>, <strong>CoreEL Technologies</strong> & <strong>Cadence</strong>.
                 </p>
               </div>
             </div>
@@ -32,7 +32,7 @@ function Board() {
               </div>
               <div className="flex-1">
                 <h3 className="text-2xl font-bold mb-1">Soumya Rani Patro</h3>
-                <div className="inline-block px-3 py-1 bg-gray-600 text-white text-sm rounded-full mb-3 font-medium">
+                <div className="inline-block px-3 py-1 bg-green-600 text-white text-sm rounded-full mb-3 font-medium">
                   Co-Founder & Director
                 </div>
                 <p className="text-sm text-gray-700 leading-relaxed">

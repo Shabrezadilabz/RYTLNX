@@ -67,7 +67,7 @@ function Header() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
               </svg>
             </button>
-            <div
+            <div 
               className={`absolute left-0 mt-3 bg-white border border-gray-200 shadow-lg rounded-lg p-4 w-80 transition-all duration-300 ${
                 servicesOpen ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-2'
               }`}
@@ -75,19 +75,19 @@ function Header() {
               <div className="space-y-1">
                 <Link className="block px-4 py-2.5 text-sm hover:bg-gray-50 rounded-md hover:text-green-500 transition-all duration-200" to="/services/chip" onClick={scrollToTop}>
                   Chip & Silicon Engineering
-                </Link>
+                  </Link>
                 <Link className="block px-4 py-2.5 text-sm hover:bg-gray-50 rounded-md hover:text-green-500 transition-all duration-200" to="/services/ai" onClick={scrollToTop}>
                   Agentic AI Systems
-                </Link>
+                  </Link>
                 <Link className="block px-4 py-2.5 text-sm hover:bg-gray-50 rounded-md hover:text-green-500 transition-all duration-200" to="/services/hardware" onClick={scrollToTop}>
                   Hardware Platform Engineering
-                </Link>
+                  </Link>
                 <Link className="block px-4 py-2.5 text-sm hover:bg-gray-50 rounded-md hover:text-green-500 transition-all duration-200" to="/services/embedded" onClick={scrollToTop}>
                   Systems & Embedded
-                </Link>
+                  </Link>
                 <Link className="block px-4 py-2.5 text-sm hover:bg-gray-50 rounded-md hover:text-green-500 transition-all duration-200" to="/services/connected" onClick={scrollToTop}>
                   Secured & Connected Ecosystems
-                </Link>
+                  </Link>
               </div>
             </div>
           </div>

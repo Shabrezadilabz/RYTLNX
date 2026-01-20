@@ -6,21 +6,21 @@ function Blogs() {
       id: "chip-to-cloud-engineering",
       title: "Chip-to-Cloud Engineering: Why Integration Matters",
       description: "How unified engineering accelerates product development from silicon design to cloud deployment, reducing time-to-market and improving system reliability.",
-      date: "January 15, 2025",
+      date: "December 15, 2025",
       category: "Engineering"
     },
     {
       id: "rise-of-edge-ai",
       title: "The Rise of Edge AI in Real-World Systems",
       description: "Why edge intelligence is becoming essential for modern IoT and embedded systems, enabling real-time decision-making without cloud dependency.",
-      date: "January 8, 2025",
+      date: "November 8, 2025",
       category: "AI & Technology"
     },
     {
       id: "secure-iot-ecosystems",
       title: "Building Secure IoT Ecosystems",
       description: "Principles of secure device-to-cloud engineering, covering encryption, authentication, and best practices for protecting connected systems.",
-      date: "December 20, 2024",
+      date: "September 20, 2025",
       category: "Security"
     }
   ];
@@ -30,7 +30,7 @@ function Blogs() {
   return (
     <main className="max-w-7xl mx-auto px-6 py-12">
       <section>
-        <h1 className="text-3xl font-bold">Insights & Perspectives</h1>
+        <h1 className="text-3xl font-bold text-green-600">Insights & Perspectives</h1>
         <p className="mt-2 text-gray-600">Thought leadership on semiconductor, embedded, hardware, IoT, and agentic AI.</p>
         <div className="mt-6 grid md:grid-cols-3 gap-6">
           {allBlogs.map((blog) => (

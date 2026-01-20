@@ -90,7 +90,7 @@ This application was submitted through the RTLYNX Careers page.
   return (
     <main className="max-w-7xl mx-auto px-6 py-12">
       <section className="bg-white rounded-lg p-8 shadow-sm">
-        <h1 className="text-3xl font-bold">Careers at RTLYNX</h1>
+        <h1 className="text-3xl font-bold text-green-600">Careers at RTLYNX</h1>
         <p className="mt-4 text-gray-700">Join a purpose-driven engineering team shaping the future of semiconductor and high-technology products.</p>
         <div className="mt-6 grid md:grid-cols-3 gap-6">
           <div className="p-4 border rounded">

@@ -2,8 +2,8 @@ function About() {
   return (
     <main className="max-w-7xl mx-auto px-6 py-12 animated-bg">
       <div className="text-center mb-12 animate-fadeIn">
-        <h1 className="text-4xl font-bold mb-3">
-          About <span className="text-black font-bold">RTLYNX</span>
+        <h1 className="text-4xl font-bold mb-3 text-green-600">
+          About RTLYNX
         </h1>
         <p className="text-gray-600 text-lg max-w-3xl mx-auto">
           Pioneering semiconductor and advanced technology solutions through innovation, expertise, and purpose-driven engineering.

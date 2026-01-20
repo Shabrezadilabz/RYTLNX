@@ -11,9 +11,10 @@ function Footer() {
         <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-6 md:gap-4">
           <div>
             <img 
-              src="/assets/images/RTLYNX LOGO with TM_White Background.png" 
-              className="w-40 mb-2" 
+              src="/assets/images/RTLYNX_FOOTER_LOGO.png" 
+              className="mb-2" 
               alt="RTLYNX"
+              style={{ maxWidth: '150px', height: 'auto', paddingTop: '10px', paddingBottom: '10px' }}
             />
             <p className="text-sm text-gray-300">Engineering semiconductor, hardware, embedded, connected systems, and AI products with purpose and precision.</p>
           </div>

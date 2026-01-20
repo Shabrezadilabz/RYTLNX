@@ -161,7 +161,7 @@ function Home() {
               <strong className="text-black font-bold">RTLYNX</strong> delivers next-generation silicon engineering, embedded systems, and agentic AI platforms for a connected world.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
-              <Link to="/services/chip" className="px-8 py-4 btn-primary text-white rounded-lg font-semibold inline-flex items-center justify-center gap-2 shadow-lg hover:shadow-xl transition-all">
+              <Link to="/services" className="px-8 py-4 btn-primary text-white rounded-lg font-semibold inline-flex items-center justify-center gap-2 shadow-lg hover:shadow-xl transition-all">
                 Explore Services <span>→</span>
               </Link>
               <Link to="/contact" className="px-8 py-4 btn-secondary rounded-lg font-semibold inline-flex items-center justify-center gap-2">
@@ -235,7 +235,7 @@ function Home() {
             </Link>
           </div>
           <div className="group p-8 bg-white border-l-4 border-green-500 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
-            <h4 className="font-bold text-xl mb-3 text-gray-900">Advanced Hardware Platform Engineering</h4>
+            <h4 className="font-bold text-xl mb-3 text-gray-900">Hardware Platform Engineering</h4>
             <p className="text-sm text-gray-600 leading-relaxed mb-4">High-density boards, performance-critical designs and compliance testing.</p>
             <Link to="/services/hardware" className="text-sm text-green-600 font-semibold inline-flex items-center hover:gap-2 transition-all group-hover:text-green-700">
               Learn more <span className="ml-1">→</span>

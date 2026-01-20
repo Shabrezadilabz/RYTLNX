@@ -2,7 +2,7 @@ function Contact() {
   return (
     <main className="max-w-7xl mx-auto px-6 py-12 animated-bg">
       <div className="text-center mb-8 animate-fadeIn">
-        <h1 className="text-4xl font-bold">Get In Touch</h1>
+        <h1 className="text-4xl font-bold text-green-600">Get In Touch</h1>
         <p className="mt-2 text-gray-600 text-lg">We're here to partner with you on semiconductor, hardware, embedded, connected systems, and AI engineering.</p>
       </div>
       

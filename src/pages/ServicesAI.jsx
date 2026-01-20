@@ -10,11 +10,8 @@ function ServicesAI() {
   return (
     <main className="max-w-7xl mx-auto px-6 py-12 animated-bg">
       <div className="text-center mb-12 animate-fadeIn">
-        <div className="inline-block px-4 py-1 bg-gray-100 rounded-full text-sm font-medium text-gray-700 mb-4">
-          Services
-        </div>
-        <h1 className="text-4xl font-bold mb-3">
-          <span className="text-green-600 font-bold">Agentic AI Systems</span>
+        <h1 className="text-4xl font-bold mb-3 text-green-600">
+          Agentic AI Systems
         </h1>
         <p className="text-gray-600 text-lg max-w-3xl mx-auto">
           Intelligent agent-based systems that operate autonomously across device, edge, and cloud.
