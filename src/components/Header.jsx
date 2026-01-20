@@ -142,7 +142,7 @@ function Header() {
         <div className="md:hidden bg-white/95 backdrop-blur-xl border-t border-gray-200/50 animate-slideDown shadow-lg">
           <Link className="block px-6 py-2 border-b border-gray-100 hover:bg-gray-50 transition-all text-sm" to="/" onClick={handleLinkClick}>Home</Link>
           <Link className="block px-6 py-2 border-b border-gray-100 hover:bg-gray-50 transition-all text-sm" to="/about" onClick={handleLinkClick}>About</Link>
-          <Link className="block px-6 py-2 border-b border-gray-100 hover:bg-gray-50 transition-all text-sm" to="/services/chip" onClick={handleLinkClick}>Services</Link>
+          <Link className="block px-6 py-2 border-b border-gray-100 hover:bg-gray-50 transition-all text-sm" to="/services" onClick={handleLinkClick}>Services</Link>
           <Link className="block px-6 py-2 border-b border-gray-100 hover:bg-gray-50 transition-all text-sm" to="/board" onClick={handleLinkClick}>Board</Link>
           <Link className="block px-6 py-2 border-b border-gray-100 hover:bg-gray-50 transition-all text-sm" to="/careers" onClick={handleLinkClick}>Careers</Link>
           <Link className="block px-6 py-2 border-b border-gray-100 hover:bg-gray-50 transition-all text-sm" to="/blogs" onClick={handleLinkClick}>Blogs</Link>
